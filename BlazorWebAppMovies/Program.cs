@@ -1,6 +1,5 @@
 using BlazorWebAppMovies.Components;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,10 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddDbContext<BlazorWebAppMoviesContext>
-(
-    options => options.UseSqlite(builder.Configuration.GetConnectionString("BlazorWebAppMoviesContext.db"))
-);
+builder.Services.AddDbContextFactory<BlazorWebAppMoviesContext>(options =>
+options.UseSqlite(
+    builder.Configuration.GetConnectionString("BlazorWebAppMoviesContext") ?? 
+    throw new InvalidOperationException(
+        "Connection string 'BlazorWebAppMoviesContext' not found.")));
+
+builder.Services.AddQuickGridEntityFrameworkAdapter();
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 var app = builder.Build();
 

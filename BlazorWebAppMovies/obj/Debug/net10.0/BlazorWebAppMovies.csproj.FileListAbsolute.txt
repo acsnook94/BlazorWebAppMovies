@@ -226,3 +226,4 @@
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/1x45lb54o8-{0}-boiwgh0w5b-boiwgh0w5b.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/w0rv53nok0-{0}-haxarscicu-haxarscicu.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/BlazorWe.6E9C9790.Up2Date
+/home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/BlazorWebAppMovies.sourcelink.json
