@@ -28,7 +28,7 @@ else
                     <ValidationMessage For="() => Movie.Title" class="text-danger" />
                 </div>
                 <div class="mb-3">
-                    <label for="releasedate" class="form-label">ReleaseDate:</label>
+                    <label for="releasedate" class="form-label">Release Date:</label>
                     <InputDate id="releasedate" @bind-Value="Movie.ReleaseDate" class="form-control" />
                     <ValidationMessage For="() => Movie.ReleaseDate" class="text-danger" />
                 </div>
@@ -42,6 +42,13 @@ else
                     <InputNumber id="price" @bind-Value="Movie.Price" class="form-control" />
                     <ValidationMessage For="() => Movie.Price" class="text-danger" />
                 </div>
+
+                <div class="mn-3">
+                    <label for="rating" class="form-label">Rating:</label>
+                    <InputText id="rating" @bind-Value="Movie.Rating" class="form-control"/>
+                    <ValidationMessage For="() => Movie.Rating" class="text-danger"/>
+                </div>
+
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>
         </div>
@@ -80,6 +87,7 @@ else
         try
         {
             await context.SaveChangesAsync();
+            NavigationManager.NavigateTo("/movies");
         }
         catch (DbUpdateConcurrencyException)
         {
@@ -93,7 +101,7 @@ else
             }
         }
 
-        NavigationManager.NavigateTo("/movies");
+        @* NavigationManager.NavigateTo("/movies"); *@
     }
 
     private bool MovieExists(int id)

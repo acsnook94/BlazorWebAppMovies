@@ -71,7 +71,6 @@
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/m5q4z4wr8e-{0}-cyz5k529gx-cyz5k529gx.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/rvvefaeipk-{0}-ej96puwv3k-ej96puwv3k.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/dpzebyj6gc-{0}-cj5793hgrt-cj5793hgrt.gz
-/home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/55fjfrg8ch-{0}-684ylfe760-684ylfe760.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/staticwebassets.build.json
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/staticwebassets.build.json.cache
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/staticwebassets.development.json
@@ -224,6 +223,8 @@
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/BlazorWebAppMovies.csproj.AssemblyReference.cache
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/unlu0xluo6-{0}-eu7w3d5g1a-eu7w3d5g1a.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/1x45lb54o8-{0}-boiwgh0w5b-boiwgh0w5b.gz
-/home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/w0rv53nok0-{0}-haxarscicu-haxarscicu.gz
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/BlazorWe.6E9C9790.Up2Date
 /home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/BlazorWebAppMovies.sourcelink.json
+/home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/scopedcss/Components/Pages/MoviePages/Index.razor.rz.scp.css
+/home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/w0rv53nok0-{0}-pccafgauhe-pccafgauhe.gz
+/home/acsnook94/source/repos/BlazorWebAppMovies/BlazorWebAppMovies/obj/Debug/net10.0/compressed/55fjfrg8ch-{0}-rixx0kjf22-rixx0kjf22.gz
